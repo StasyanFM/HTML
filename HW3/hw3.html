@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HW3</title>
+<link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <!-- Задание 2 (Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.)-->
+        <script>
+            if (confirm(`Здравствуйте! Вы являетесь преподавателем GeekBrains?`)) {
+                let nameAuditor = prompt(`Это очень хорошо! Как Вас зовут?`);
+                function name(x) {
+                    alert(`Здравствуйте ${x}, прошу приступить к проверке домашнего задания!`)
+                }
+                name(nameAuditor);
+            }
+            else {
+                let nameNone = prompt(`Не может быть! А как Вас зовут?`);
+                let age = prompt(`Для Вашей идентификации, укажете Ваш возраст: `);
+                if (confirm(`Итак, Вас зовут ${nameNone}, Вам ${age} лет и вы не являетесь сотрудником GeekBrains `)) {
+                    alert(`Уважаемый ${nameNone}, Вам заблокирован доступ к домашнему заданию! `);
+                }
+                else {
+                    alert(`Уважаемый ${nameNone}, неудача☹️`);
+                }
+            }
+
+        </script>
+        <!-- Задание 2 -->
+
+        <div class="header">
+            <div class="container" style="background-color: rgb(210, 250, 101); border-width: 0 300px 0 500px;">
+                <div class="row align-items-start" style="width: 1615;">
+                    <div class="col">
+                    </div>
+                    <div class="col" style="padding-left: 115;">
+                        <center>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTMmy9PwzL70C-k9tR_WuO6uvqP9cyOXDHog&usqp=CAU"
+                                height="90" style="display: block; margin-left: auto; margin-right: auto;">
+                        </center>
+                    </div>
+                    <div class="col" style="padding-left: 1615; background-color: rgb(222, 253, 82);">
+                        <!-- <p style="text-align: center; color: black;">Разработал: <strong> Баранов Станислав Александрович</strong></p> -->
+                        <!-- <p style="text-align: center; color: black;">Тел: +7(901)741-53-39</p> -->
+                        <!-- <p style="text-align: center; color: black;">Email:@gmail.ru</p> -->
+                        <p>Разработал: <strong> Баранов Станислав Александрович</strong></p>
+                        <p>Тел:+7(901)741-53-39</p>
+                        <p>Email: @gmail.ru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Name">
+            <h2 align="center"><strong>Курс "Знакомство с веб-технологиями"</strong></h2>
+        </div>
+        <div class="Glavnoe_menu">
+            <div class="container1">
+                <button class="col">
+                    <h3><a href="index.html" style="text-decoration: none;">Главная</a></h3>
+                </button>
+                <button class="col">
+                    <h3><a href="Lec.html" style="text-decoration: none;">Лекции</a></h3>
+                </button>
+                <button class="col">
+                    <h3><a href="Seminar.html" style="text-decoration: none;">Семинары</a></h3>
+                </button>
+                <button class="col">
+                    <h3><a href="Library.html" style="text-decoration: none;">Библиотека</a></h3>
+                </button>
+                <button class="col">
+                    <h3><a href="Library.html" style="text-decoration: none;">Журнал</a></h3>
+                </button>
+                </button>
+                </button>
+            </div>
+            <div class="Content">
+                <div align="center" class="col">
+                    <p><strong>Курс по Веб-технологиям в процессе изучения.</strong> </p>
+                    <div class="Content1">
+                        <div align="center" class="col">
+                            <p><strong>Курс включает в себя:</strong></p>
+                            <ul>
+                                <li>Лекции</li>
+                                <li>Семинары</li>
+                                <li>Домашние задания</li>
+                                <li>Библиотеку полезных книг и учебных пособий по тематике веб-технологий (HTML, CSS, JS
+                                    и т.п.)</li>
+                            </ul>
+                        </div>
+                        <div class="Content1">
+                            <div class="row align-items-start">
+                                <div align="center" class="col">
+                                    <hr>
+                                    <a><strong>Лекции</strong></a>
+                                    <ol>
+                                        <li>лекция - Веб-технологии: вчера, сегодня, завтра</li>
+                                        <li>лекция - HTML, CSS</li>
+                                        <li>лекция - Основы JavaScript</li>
+                                        <li>лекция - Основы бэкенда: PHP и MySQL</li>
+                                        <li>лекция - JSON и XML</li>
+                                    </ol>
+                                    <hr>
+                                </div>
+                                <div align="center" class="col">
+                                    <a><strong>Семинары</strong></a>
+                                    <ol>
+                                        <li>семинар - Веб-технологии: вчера, сегодня, завтра</li>
+                                        <li>семинар - HTML, CSS</li>
+                                        <li>семинар - Основы JavaScript</li>
+                                        <li>семинар - Основы бэкенда: PHP и MySQL</li>
+                                        <li>семинар - JSON и XML</li>
+                                    </ol>
+                                    <hr>
+                                </div>
+                                <div align="center" class="col">
+                                    <a><strong>Библиотека</strong></a>
+                                    <ul>
+                                        <li>HTML и CSS (учебные пособия и книги)</li>
+                                        <li>JavaScript (учебные пособия и книги)</li>
+                                        <li>PHP (учебные пособия и книги)</li>
+                                        <li>MySQL (учебные пособия и книги) и иное</li><br>
+                                    </ul>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div align="center" class="col">
+                        <a><strong>Общая трактория обучения Разработчика</strong></a>
+                        <ul>
+                            <div class="col" style="padding-left: 115;">
+                                <center>
+                                    <img src="https://gb.ru/channels/base/images/education/trajectory-developer.png"
+                                        height="400" style="display: block; margin-left: auto; margin-right: auto;">
+                                </center>
+
+</body>
+
+</html>
