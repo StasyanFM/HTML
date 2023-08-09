@@ -1,0 +1,35 @@
+/* .header{
+    background-color: rgb(210, 250, 101); 
+    border-width: 0 300px 0 500px;
+} */
+
+.container {
+    color: rgb(0, 0, 0); 
+    font-size: 20px;
+    align-content: center;
+}
+
+.Content {
+    color: rgb(5, 3, 3);
+    font-size: 20px;
+    align-content: center;
+}
+
+.Content1 {
+    color: rgb(221, 9, 9);
+    font-size: 20px;
+    align-content: center;
+}
+
+li{
+    color: black;
+    width: max-content;
+    padding: 0;
+    pointer-events: none;
+}
+ul {
+    width: max-content;
+    padding: 0;
+    pointer-events: none;
+  }
+  
