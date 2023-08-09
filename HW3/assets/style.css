@@ -4,7 +4,7 @@
 } */
 
 .container {
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
     font-size: 20px;
     align-content: center;
 }
@@ -17,23 +17,27 @@
 
 col {
     background-color: rgb(0, 0, 0);
-  }
+}
+
 ul {
     width: max-content;
-    padding: 0;
-    pointer-events: none;
-    list-style-type: none;
-    margin-top: 5px;
-    padding: 0;
     text-align: center;
-    font-size: 22px;
-    cursor: pointer;   
-  }
-  
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ol {
+    width: max-content;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 li:hover {
     background-color: rgb(210, 250, 101);
-  }
+    cursor: pointer;
+}
 
-p{
+p {
     text-align: center;
 }
